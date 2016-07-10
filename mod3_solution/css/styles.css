@@ -2,9 +2,11 @@ body {
 	font-size: 16px;
 	color: #000;
 	font-family: 'Oxygen', sans-serif;
+	
 }
 
 /* HEADER */
+
 #header-nav {
 	background-color: grey;
 	border-radius: 0;
@@ -13,7 +15,6 @@ body {
 #nav-list {
   margin-top: 10px;
   color: #951C49;
-  text-align: center;
   width: 100%;
 }
 .navbar-brand h1 {
@@ -25,10 +26,6 @@ body {
 	margin-top: 0;
 	margin-bottom: 0;
 	line-height: .75;
-}
-#nav-list {
-  color: #951C49;
-  text-align: center;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #000;
