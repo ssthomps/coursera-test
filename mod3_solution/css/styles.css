@@ -1,65 +1,54 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Food, LLC</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
-  </head>
+body {
+	font-size: 16px;
+	color: #000;
+	font-family: 'Oxygen', sans-serif;
+	
+}
 
-<body>
-  <header>
-    <nav id="header-nav" class="navbar navbar-default">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <div class="navbar-brand">
-      <h1>Food, LLC</h1>
-      </div>
-    </div>
+/* HEADER */
 
-    <div id="collapsable-nav" class="collapse navbar-collapse">
-      <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
-        <li>
-          <span>Chicken</span>
-        </li>
-        <li>
-        <span>Beef</span>
-        </li>
-        <li>
-          <span>Sushi</span>
-        </li>
-      </ul>
-      </div>
-      </div>
-      </nav>
-  </header>
-
-    <div id="page-header" class="container">
-      <p class="text-center">Our Menu</p>
-    </div>
-
-    <div id="main-content">
-      <div class="col-xs-12">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum auctor urna in finibus. Proin velit tortor, egestas id tellus ut, tristique suscipit leo. Sed quam lectus, fermentum in purus sed, sodales scelerisque neque. Cras a est convallis arcu varius tincidunt. In fermentum rutrum massa a faucibus. Integer non ipsum nec arcu rutrum pretium vel id neque. Pellentesque congue sit amet tellus nec posuere. Cras pharetra convallis est, sed elementum nibh tincidunt in. In hac habitasse platea dictumst. Fusce mollis sollicitudin ipsum, id euismod quam posuere id. Praesent tempor scelerisque tincidunt. Suspendisse placerat arcu nibh, in pretium augue feugiat imperdiet. Sed pulvinar enim tellus, et gravida neque lobortis nec. Pellentesque ornare commodo vulputate.Vestibulum ut nulla egestas, tincidunt orci vitae, efficitur tortor. Ut at scelerisque nisi. Donec magna urna, vehicula sit amet sollicitudin eu, faucibus eget augue. Aenean augue purus, faucibus in orci id, malesuada molestie arcu. Donec id porttitor leo. Curabitur accumsan tincidunt sem. Nunc eleifend tempus augue eget congue. Curabitur et augue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus dui, aliquam non libero euismod, mollis aliquam nisl. Donec malesuada ipsum velit, at placerat mauris cursus id.Fusce molestie pretium urna, et aliquam massa venenatis a. Sed suscipit augue ligula, at aliquet dolor imperdiet a. Nunc eu tempus urna, ut ornare lacus. Integer vulputate ante ultrices orci cursus, sed ornare erat venenatis. Maecenas sit amet dolor vel est sodales ornare. Nunc non nulla tristique, lobortis massa ut, suscipit quam. Nulla in ultricies mi. Vivamus tincidunt luctus augue, vitae blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum auctor urna in finibus. Proin velit tortor, egestas id tellus ut, tristique suscipit leo. Sed quam lectus, fermentum in purus sed, sodales scelerisque neque. Cras a est convallis arcu varius tincidunt. In fermentum rutrum massa a faucibus. Integer non ipsum nec arcu rutrum pretium vel id neque. Pellentesque congue sit amet tellus nec posuere. Cras pharetra convallis est, sed elementum nibh tincidunt in. In hac habitasse platea dictumst. Fusce mollis sollicitudin ipsum, id euismod quam posuere id. Praesent tempor scelerisque tincidunt. Suspendisse placerat arcu nibh, in pretium augue feugiat imperdiet. Sed pulvinar enim tellus, et gravida neque lobortis nec. Pellentesque ornare commodo vulputate.Vestibulum ut nulla egestas, tincidunt orci vitae, efficitur tortor. Ut at scelerisque nisi. Donec magna urna, vehicula sit amet sollicitudin eu, faucibus eget augue. Aenean augue purus, faucibus in orci id, malesuada molestie arcu. Donec id porttitor leo. Curabitur accumsan tincidunt sem. Nunc eleifend tempus augue eget congue. Curabitur et augue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus dui, aliquam non libero euismod, mollis aliquam nisl. Donec malesuada ipsum velit, at placerat mauris cursus id.Fusce molestie pretium urna, et aliquam massa venenatis a. Sed suscipit augue ligula, at aliquet dolor imperdiet a. Nunc eu tempus urna, ut ornare lacus. Integer vulputate ante ultrices orci cursus, sed ornare erat venenatis. Maecenas sit amet dolor vel est sodales ornare. Nunc non nulla tristique, lobortis massa ut, suscipit quam. Nulla in ultricies mi. Vivamus tincidunt luctus augue, vitae blandit sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras rutrum auctor urna in finibus. Proin velit tortor, egestas id tellus ut, tristique suscipit leo. Sed quam lectus, fermentum in purus sed, sodales scelerisque neque. Cras a est convallis arcu varius tincidunt. In fermentum rutrum massa a faucibus. Integer non ipsum nec arcu rutrum pretium vel id neque. Pellentesque congue sit amet tellus nec posuere. Cras pharetra convallis est, sed elementum nibh tincidunt in. In hac habitasse platea dictumst. Fusce mollis sollicitudin ipsum, id euismod quam posuere id. Praesent tempor scelerisque tincidunt. Suspendisse placerat arcu nibh, in pretium augue feugiat imperdiet. Sed pulvinar enim tellus, et gravida neque lobortis nec. Pellentesque ornare commodo vulputate.Vestibulum ut nulla egestas, tincidunt orci vitae, efficitur tortor. Ut at scelerisque nisi. Donec magna urna, vehicula sit amet sollicitudin eu, faucibus eget augue. Aenean augue purus, faucibus in orci id, malesuada molestie arcu. Donec id porttitor leo. Curabitur accumsan tincidunt sem. Nunc eleifend tempus augue eget congue. Curabitur et augue augue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus dui, aliquam non libero euismod, mollis aliquam nisl. Donec malesuada ipsum velit, at placerat mauris cursus id.Fusce molestie pretium urna, et aliquam massa venenatis a. Sed suscipit augue ligula, at aliquet dolor imperdiet a. Nunc eu tempus urna, ut ornare lacus. Integer vulputate ante ultrices orci cursus, sed ornare erat venenatis. Maecenas sit amet dolor vel est sodales ornare. Nunc non nulla tristique, lobortis massa ut, suscipit quam. Nulla in ultricies mi. Vivamus tincidunt luctus augue, vitae blandit sapien</p>
-
-
-</body>
-
-
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-2.1.4.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
-</body>
-</html>
+#header-nav {
+	background-color: grey;
+	border-radius: 0;
+	border: 0;
+}
+#nav-list {
+  margin-top: 10px;
+  color: #951C49;
+  text-align: center;
+  width: 100%;
+}
+.navbar-brand h1 {
+	font-family: 'Lora', serif;
+	color: #000;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: .75;
+}
+#nav-list {
+  color: #951C49;
+  text-align: center;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+/* MAIN CONTENT */
+#page-header {
+	background-color: #fff;
+	font-size: 1.8em;
+	font-weight: bold;
+}
+#main-content {
+	padding-bottom: 30px;
+	height: 1500px;
+	width: 100%;
+	background-color: #5588ff;
+	margin-top: 20px;
+	padding: 25px 10px 25px 10px;
+}
